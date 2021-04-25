@@ -1,0 +1,13 @@
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\bin\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.exe
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\bin\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.deps.json
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\bin\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.runtimeconfig.json
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\bin\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.runtimeconfig.dev.json
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\bin\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.dll
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\bin\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.pdb
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.csprojAssemblyReference.cache
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.AssemblyInfoInputs.cache
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.AssemblyInfo.cs
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.csproj.CoreCompileInputs.cache
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.dll
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.pdb
+C:\Users\Bishal Pradhan\Desktop\bridgelabz\dotNET\MoodAnalyzerAppWithCore\MoodAnalyzerAppWithCore\obj\Debug\netcoreapp3.1\MoodAnalyzerAppWithCore.genruntimeconfig.cache
