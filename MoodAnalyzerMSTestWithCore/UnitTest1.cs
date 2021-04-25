@@ -24,7 +24,7 @@ namespace MoodAnalyzerMSTestWithCore
             Assert.AreEqual(expected, mood);
         }
         /// <summary>
-        /// TC1.2 & 2.1: Given I am in Happy mood? and null message should return happy
+        /// 2.1: Given I am in Happy mood? and null message should return happy
         /// </summary>
 
         [TestMethod]  
