@@ -14,9 +14,29 @@ namespace MoodAnalyzerAppWithCore
         }         
         public string AnalyseMood()
         {
+            //try
+            //{
+            //    if (this.message.Contains("Sad"))
+            //    {
+            //        return "SAD";
+            //    }
+            //    else
+            //    {
+            //        return "HAPPY";
+            //    }
+            //}
+            //catch
+            //{
+            //    return "HAPPY";
+            //}
             try
             {
-                if (this.message.Contains("Sad"))
+                if(this.message.Equals(string.Empty))
+                {
+                    throw new MoodAnalyzerCustomException(MoodAnalyzerCustomException.ExceptionType.EMPTY_MESSAGE, "Mood Should not be empty");
+                }
+
+                if(this.message.Contains("Sad"))
                 {
                     return "SAD";
                 }
@@ -27,7 +47,7 @@ namespace MoodAnalyzerAppWithCore
             }
             catch
             {
-                return "HAPPY";
+                throw new MoodAnalyzerCustomException(MoodAnalyzerCustomException.ExceptionType.NULL_MESSAGE, "Mood should not be null");
             }
             
         }
