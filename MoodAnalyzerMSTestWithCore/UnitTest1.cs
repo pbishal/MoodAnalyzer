@@ -28,7 +28,7 @@ namespace MoodAnalyzerMSTestWithCore
         /// </summary>
 
         [TestMethod]  
-        //[Data row ("I am in Happy Mood")]
+        [DataRow("I am in Happy Mood")]
         [DataRow(null)]
         public void GivenHappyMoodShouldReturnHappy(string message)
         {
