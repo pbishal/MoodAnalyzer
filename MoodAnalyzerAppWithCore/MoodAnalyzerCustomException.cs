@@ -8,7 +8,7 @@ namespace MoodAnalyzerAppWithCore
     {
         public enum ExceptionType
         {
-            NULL_MESSAGE, EMPTY_MESSAGE, NO_SUCH_FIELD, NO_SUCH_METHOD, NO_SUCH_CLASS, OBJECT_CREATION_ISSUE, EMPTY_EXCEPTION, NULL_EXCEPTION
+            NULL_MESSAGE, EMPTY_MESSAGE, NO_SUCH_FIELD, NO_SUCH_METHOD, NO_SUCH_CLASS, OBJECT_CREATION_ISSUE, EMPTY_EXCEPTION, NULL_EXCEPTION, INVALID_INPUT
         }
         ////Creting 'type' variable of ExceptionType
         ExceptionType type;

@@ -32,8 +32,7 @@ namespace MoodAnalyzerAppWithCore
         {
             try
             {
-                ///UC 3 Inform user if he entered Invalid Mood
-                ///Here TC 3.2 Given Empty Mood should throw MoodAnalyserException and return Empty Mood should not be empty.
+                
                 if (message.Equals(string.Empty))
                 {
                     throw new MoodAnalyzerCustomException(MoodAnalyzerCustomException.ExceptionType.EMPTY_EXCEPTION, "Mood should not be EMPTY");
