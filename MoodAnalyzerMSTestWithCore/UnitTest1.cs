@@ -182,5 +182,49 @@ namespace MoodAnalyzerMSTestWithCore
                 Assert.AreEqual(MoodAnalyzerCustomException.ExceptionType.INVALID_INPUT, e.Message);
             }
         }
+
+        /// <summary>
+        /// Test Case 7.1
+        /// set Happy message with Reflector 
+        /// should return HAPPY
+        /// </summary>
+        [TestMethod]
+        public void ChangeMoodDynamically_WhenHappyMessage_ShouldReturnHappy()
+        {
+            dynamic result = MoodAnalyserFactory.ChangeMoodDynamically("MoodAnalyser.MoodAnalyserMain", "HAPPY");
+            Assert.AreEqual("HAPPY", result);
+        }
+
+        /// <summary>
+        /// Test Case 7.2 set field when improper should throw Exception 
+        /// </summary>
+        [TestMethod]
+        public void ChangeMoodDynamically_WhenImproperMessage_ShouldThrowException()
+        {
+            try
+            {
+                string message = MoodAnalyserFactory.ChangeMoodDynamically("MoodAnalyzer.getMood", "HAPPY");
+            }
+            catch (MoodAnalyzerCustomException e)
+            {
+                Assert.AreEqual(MoodAnalyzerCustomException.ExceptionType.INVALID_INPUT, e.Message);
+            }
+        }
+
+        /// <summary>
+        /// Test Case 7.3 setting Null message with Reflector should throw Exception
+        /// </summary>
+        [TestMethod]
+        public void ChangeMoodDynamically_WhenNull_ShouldThrowException()
+        {
+            try
+            {
+                dynamic result = MoodAnalyserFactory.ChangeMoodDynamically("MoodAnalyzer.MoodAnalyser", null);
+            }
+            catch (MoodAnalyzerCustomException e)
+            {
+                Assert.AreEqual(MoodAnalyzerCustomException.ExceptionType.NULL_EXCEPTION, e.Message);
+            }
+        }
     }
 }
